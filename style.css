@@ -28,7 +28,7 @@ header{
 /* MAIN */
 
 .cyan{
-    background-color: #1abc9c;
+    background-color: cyan;
     height: 90vh;
     padding-top: var(--h-height);
     color: white;
@@ -37,4 +37,14 @@ header{
 .avatar{
     width: 20%;
     height: auto;
+}
+
+.container{
+    border: 1px solid black;
+    height: 90vh;
+}
+
+[class*="col"]{
+    background-color: forestgreen;
+    border: 1px solid red;
 }
