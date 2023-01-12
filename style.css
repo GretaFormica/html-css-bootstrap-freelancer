@@ -40,10 +40,6 @@ header{
     height: auto;
 }
 
-.container{
-    height: 100vh;
-}
-
 
 .card-img{
     width: 90%;
@@ -66,7 +62,6 @@ button{
 .gray{
     background-color: #3a546d;
     color: white;
-    height: 200px;
 }
 
 .light{
