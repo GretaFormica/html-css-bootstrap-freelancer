@@ -17,6 +17,7 @@ header{
     width: 100%;
     color: white;
     position: fixed;
+    z-index: 1;
 }
 
 .ul-flex{
@@ -28,7 +29,7 @@ header{
 /* MAIN */
 
 .cyan{
-    background-color: cyan;
+    background-color: #1abc9c;
     height: 90vh;
     padding-top: var(--h-height);
     color: white;
@@ -41,10 +42,10 @@ header{
 
 .container{
     border: 1px solid black;
-    height: 90vh;
+    height: 100vh;
 }
 
-[class*="col"]{
+.card{
     background-color: forestgreen;
-    border: 1px solid red;
+    aspect-ratio: 1 / 0.65;
 }
